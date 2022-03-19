@@ -1,0 +1,109 @@
+body {
+  background-color: white;
+  margin: auto;
+  padding: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #ffff;
+}
+
+li {
+  padding: 10px;
+  float: right;
+}
+
+li a {
+  font-size: 24px;
+  width: 5px;
+  display: inline;
+  color: #C2E1C3;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover{
+  margin: 10px;
+  color: white;
+  background-color: #C2E1C3;
+}
+
+.first{
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.logs {
+  width: 350px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.button {
+  border-color: inherit;
+  background-color: #C2E1C3;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  margin: 15px;
+  float: right;
+}
+
+.bask {
+  float: right;
+  height: 60px;
+}
+
+.footer ul a {
+  border: 1px 1px;
+  font-size: 20px;
+}
+
+.footer li {
+  padding: 5%;
+  float: left;
+}
+
+.orange ul{
+  padding: 5%;
+  font-weight: bold;
+  font-size: 24px;
+  color: #C2E1C3;
+  padding-right: 30%;
+  float: right;
+  display:grid;
+  animation: slideright 3s;
+}
+
+.orange img {
+  padding-left: 20%;
+  animation: slideleft 3s;
+}
+@keyframes slideleft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideright {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
